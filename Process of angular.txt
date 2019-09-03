@@ -1,0 +1,598 @@
+Your environment has been set up for using Node.js 10.16.3 (x64) and npm.
+
+C:\Users\vinkamat>ng new MediaApp
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE MediaApp/angular.json (3609 bytes)
+CREATE MediaApp/package.json (1283 bytes)
+CREATE MediaApp/README.md (1025 bytes)
+CREATE MediaApp/tsconfig.json (543 bytes)
+CREATE MediaApp/tslint.json (1988 bytes)
+CREATE MediaApp/.editorconfig (246 bytes)
+CREATE MediaApp/.gitignore (631 bytes)
+CREATE MediaApp/browserslist (429 bytes)
+CREATE MediaApp/karma.conf.js (1020 bytes)
+CREATE MediaApp/tsconfig.app.json (270 bytes)
+CREATE MediaApp/tsconfig.spec.json (270 bytes)
+CREATE MediaApp/src/favicon.ico (948 bytes)
+CREATE MediaApp/src/index.html (294 bytes)
+CREATE MediaApp/src/main.ts (372 bytes)
+CREATE MediaApp/src/polyfills.ts (2838 bytes)
+CREATE MediaApp/src/styles.css (80 bytes)
+CREATE MediaApp/src/test.ts (642 bytes)
+CREATE MediaApp/src/assets/.gitkeep (0 bytes)
+CREATE MediaApp/src/environments/environment.prod.ts (51 bytes)
+CREATE MediaApp/src/environments/environment.ts (662 bytes)
+CREATE MediaApp/src/app/app-routing.module.ts (246 bytes)
+CREATE MediaApp/src/app/app.module.ts (393 bytes)
+CREATE MediaApp/src/app/app.component.html (25499 bytes)
+CREATE MediaApp/src/app/app.component.spec.ts (1104 bytes)
+CREATE MediaApp/src/app/app.component.ts (212 bytes)
+CREATE MediaApp/src/app/app.component.css (0 bytes)
+CREATE MediaApp/e2e/protractor.conf.js (810 bytes)
+CREATE MediaApp/e2e/tsconfig.json (214 bytes)
+CREATE MediaApp/e2e/src/app.e2e-spec.ts (641 bytes)
+CREATE MediaApp/e2e/src/app.po.ts (262 bytes)
+
+> core-js@2.6.9 postinstall C:\Users\vinkamat\MediaApp\node_modules\babel-runtime\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@3.2.1 postinstall C:\Users\vinkamat\MediaApp\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@2.6.9 postinstall C:\Users\vinkamat\MediaApp\node_modules\karma\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> @angular/cli@8.3.2 postinstall C:\Users\vinkamat\MediaApp\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1184 packages from 1050 contributors and audited 18748 packages in 316.085s
+found 0 vulnerabilities
+
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in browserslist.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+    Successfully initialized git.
+
+C:\Users\vinkamat>ng serve
+The serve command requires to be run in an Angular project, but a project definition could not be found.
+
+C:\Users\vinkamat>cd MediaApp
+
+C:\Users\vinkamat\MediaApp>ng serve
+10% building 3/3 modules 0 activei ?wds?: Project is running at http://localhost:4200/webpack-dev-server/
+i ?wds?: webpack output is served from /
+i ?wds?: 404s will fallback to //index.html
+
+chunk {main} main.js, main.js.map (main) 49.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.08 MB [initial] [rendered]
+Date: 2019-09-03T04:35:02.703Z - Hash: 0b2a953ad825d45ef058 - Time: 8593ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+C:\Users\vinkamat\MediaApp>ng g c home/home --skip-tests --flat
+CREATE src/app/home/home.component.html (19 bytes)
+CREATE src/app/home/home.component.ts (261 bytes)
+CREATE src/app/home/home.component.css (0 bytes)
+UPDATE src/app/app.module.ts (467 bytes)
+
+C:\Users\vinkamat\MediaApp>npm install bootstrap jquery --save
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ jquery@3.4.1
++ bootstrap@4.3.1
+added 2 packages from 3 contributors and audited 18750 packages in 33.547s
+found 0 vulnerabilities
+
+
+C:\Users\vinkamat\MediaApp>ng serve
+10% building 3/3 modules 0 activei ?wds?: Project is running at http://localhost:4200/webpack-dev-server/
+i ?wds?: webpack output is served from /
+i ?wds?: 404s will fallback to //index.html
+
+chunk {main} main.js, main.js.map (main) 26 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 402 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 824 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.08 MB [initial] [rendered]
+Date: 2019-09-03T05:09:02.457Z - Hash: 9c73e03fbe72507cf8a0 - Time: 8994ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:54:00.231Z - Hash: 2391c406343455d42c05
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 286ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:55:29.516Z - Hash: eb7f6f2b2a14888ce133
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 171ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:56:12.427Z - Hash: d00ff8752eb579db0331
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 178ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:56:29.041Z - Hash: eb7f6f2b2a14888ce133
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 206ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:56:41.098Z - Hash: aaa657e9fea671ae62e4
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 190ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:56:52.813Z - Hash: 0fb3ce2d31d030e7a55d
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 147ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:57:22.554Z - Hash: 2af2e5f93cbc7837223c
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 182ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:57:43.312Z - Hash: eadf11370ae2493ee27b
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 175ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T05:57:45.192Z - Hash: 3e66aad8f29c7de7b475
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 115ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:00:11.496Z - Hash: 00e34a459d5063cac0cc
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 143ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:08.225Z - Hash: c10afcd52077f7234ebb
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 168ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:09.369Z - Hash: bc645919760fed61feab
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 158ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:10.732Z - Hash: 55bd2ae2636a2119e0bd
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 148ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:11.994Z - Hash: 770885947743b006838e
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+Time: 121ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:18.863Z - Hash: 77c2d31627df9d9574c8
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 205ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:09:21.499Z - Hash: c93838a17a712a28273a
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 145ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:10:42.767Z - Hash: 69204d54e386ea2b6a82
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 157ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:05.612Z - Hash: c805ee2420b2e2becf33
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 139ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:07.484Z - Hash: 27da373a79f72eb47266
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 145ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:29.872Z - Hash: 6752bbebcf840b74c879
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 161ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:35.786Z - Hash: f0fdcdf1599e667454d0
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 124ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:43.297Z - Hash: f048a56c2db09448b09c
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 140ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:48.935Z - Hash: 218f8c5448265f90f4bb
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 127ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:11:50.404Z - Hash: f3a974e8e1b451f229d3
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 178ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:12:10.264Z - Hash: 35c7a926d9b2e7e4d482
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 130ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+95% emitting CopyPlugini ?wdm?: wait until bundle finished: /
+
+Date: 2019-09-03T06:12:11.454Z - Hash: f17d1430fedb4ab87401
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 132ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:12:15.030Z - Hash: 52b5e250bd25a54128c8
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 105ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:03.535Z - Hash: 7219bc4af88cf14eb480
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 166ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:08.606Z - Hash: 52b5e250bd25a54128c8
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 194ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:18.913Z - Hash: 5ea42aa477409030be5a
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 139ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:22.798Z - Hash: edaae91e72c0f8a40c19
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 129ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:24.133Z - Hash: 3375e0b381c91a3f85b6
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 132ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:28.117Z - Hash: bbd706410acf4f57621f
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 124ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+i ?wdm?: wait until bundle finished: /
+
+Date: 2019-09-03T06:16:29.352Z - Hash: 39b2924d9a8e66e87291
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 199ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:30.901Z - Hash: e6749c8072ae900e13f6
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 152ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:32.459Z - Hash: ff7f56f3765fea0e2105
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 155ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:34.243Z - Hash: 48d08f2639bd5f9ed2d5
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 122ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:37.989Z - Hash: bb6abe77a7613c382559
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 100ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:16:55.767Z - Hash: d2151353dd769b959861
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 133ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:43.410Z - Hash: 23e4a91e72e97436a22f
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 147ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:46.860Z - Hash: 0b5d4670ce317394a707
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 112ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:49.545Z - Hash: 23e4a91e72e97436a22f
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 125ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:52.176Z - Hash: f7396501e6fd82796c43
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 142ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:57.661Z - Hash: cf650513e2a92bd8683e
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 278ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:17:58.822Z - Hash: c4ed5a79738eadcd30c7
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 145ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:18:07.259Z - Hash: 714f478c9df9acbdb0f4
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 154ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:18:14.330Z - Hash: 8ff1e7dd7af905848f5e
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 132ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:18:18.773Z - Hash: cf650513e2a92bd8683e
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 121ms
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-09-03T06:18:20.783Z - Hash: ded138d3be591caab52c
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+Time: 118ms
+i ?wdm?: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+C:\Users\vinkamat\MediaApp>ng g c MediaApp/add-album --skip-tests --flat
+CREATE src/app/MediaApp/add-album.component.html (24 bytes)
+CREATE src/app/MediaApp/add-album.component.ts (280 bytes)
+CREATE src/app/MediaApp/add-album.component.css (0 bytes)
+UPDATE src/app/app.module.ts (558 bytes)
+
+C:\Users\vinkamat\MediaApp>ng g c MediaApp/album-list --skip-tests --flat
+CREATE src/app/MediaApp/album-list.component.html (25 bytes)
+CREATE src/app/MediaApp/album-list.component.ts (284 bytes)
+CREATE src/app/MediaApp/album-list.component.css (0 bytes)
+UPDATE src/app/app.module.ts (652 bytes)
+
+C:\Users\vinkamat\MediaApp>ng g c home/album-list --skip-tests --flat
+CREATE src/app/home/album-list.component.html (25 bytes)
+CREATE src/app/home/album-list.component.ts (284 bytes)
+CREATE src/app/home/album-list.component.css (0 bytes)
+UPDATE src/app/app.module.ts (652 bytes)
+
+C:\Users\vinkamat\MediaApp>ng g c home/add-album --skip-tests --flat
+CREATE src/app/home/add-album.component.html (24 bytes)
+CREATE src/app/home/add-album.component.ts (280 bytes)
+CREATE src/app/home/add-album.component.css (0 bytes)
+UPDATE src/app/app.module.ts (652 bytes)
+
+C:\Users\vinkamat\MediaApp>ng serve
+10% building 3/3 modules 0 activei ?wds?: Project is running at http://localhost:4200/webpack-dev-server/
+i ?wds?: webpack output is served from /
+i ?wds?: 404s will fallback to //index.html
+
+chunk {main} main.js, main.js.map (main) 1.99 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 122 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 402 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 824 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 339 kB [initial] [rendered]
+Date: 2019-09-03T06:37:27.154Z - Hash: 517d1580cc917e78e0af - Time: 5453ms
+
+ERROR in src/app/app.module.ts:7:35 - error TS2307: Cannot find module './MediaApp/add-album.component'.
+
+7 import { AddAlbumComponent } from './MediaApp/add-album.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:8:36 - error TS2307: Cannot find module './MediaApp/album-list.component'.
+
+8 import { AlbumListComponent } from './MediaApp/album-list.component';
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Failed to compile.
+
+
+***************************************************************
+
+add following code in "angular.json" file
+"styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+
+***************************************************************
+
+https://code.tutsplus.com/tutorials/creating-a-grocery-list-manager-using-angular-part-2-managing-items--cms-28883
+
+https://code.tutsplus.com/tutorials/creating-a-grocery-list-manager-using-angular-part-1-add-display-items--cms-28586
+
+ng generate service service employee/addEmployeeCanDeactivateRouteGuard --skip-tests --flat
+
